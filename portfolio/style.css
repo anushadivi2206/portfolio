@@ -1,0 +1,301 @@
+/* .navbarScroll.navbarDark {
+    background-color: white;
+} */
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/heroImage.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color:#fff;
+    /* z-index:99; */
+    /* margin-top:-2%; */
+    /* margin-left:3%; */
+    /* animation: fadein 2s linear forwards; */
+    
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#contact {
+    padding-bottom: 4rem;
+    /* text-align: center; */
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    /* object-fit: cover; */
+    /* margin-top: -70px !important; */
+}
+.nav-link{
+    /* color:black !important; */
+    color:black !important;
+    font-size: 20px !important;
+}
+.nav-link:hover{
+    
+    /* color: #FFC896 !important; */
+    color: #FF8400 !important;
+}
+.navbar-brand{
+    font-family:'Dancing Script', cursive;
+    font-size:xx-large !important;
+
+}
+.im{
+    width:43px;
+    border-radius: 29px;
+    
+    height:40px;
+
+}
+.i1{
+    background:url('../img/github.png') no-repeat center;
+    margin-right:8px;
+    margin-top: 4px !important;
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #c538f4;
+}
+img.card-img-top{
+    /*  max-width: 100% !important; */
+    object-fit: cover;
+    height: 270px !important;
+    display: block;
+    width: auto;
+
+}
+.servicesText:hover {
+    border: 1px solid #b823f4;
+}
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #030303 !important;
+}
+.fab {
+    color: white;
+}
+/* footer styling */
+#footer {
+    background-color: white;
+    text-align: center;
+    /* color: black !important; */
+}
+.fa-linkedin-square , .fa-github{
+    color: #030303;
+}
+
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+.card-body{
+    /* max-width: 75%; */
+    margin: auto;
+
+}
+
+.coa input{
+    border-radius: 10px !important;
+
+}
+#comment{
+    border-radius: 10px !important;
+}
+
+
+
+
+
+/*===== Google Font Import - Poppins ===== */
+ /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap'); */
+.services{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    /* display: flex; */
+    background: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+}
+.cont{
+    justify-content: center;
+    position:relative;
+    max-width: 1000px;
+    width: 300%;
+    /* background: #fff; */
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+ .text-center{
+    /* margin-left: 468px !important; */
+    /* color: #8200b6; */
+    /* color: #4C1B76; */
+    color: #FF8400;
+    text-align: left;
+    font-size: 45px;
+    font-style: normal;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+.container .skill-box{
+    width: 100%;
+    margin: 25px 0;
+}
+.skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    /* text-align: center; */
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    /* background: #962ad6; */
+    /* background: #e68524; */
+    background:#C8A0D3;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-per.java{
+    width: 90%;
+    animation-delay: 0.3s;
+}
+.skill-per.html{
+    width: 80%;
+    animation-delay: 0.3s;
+}
+.skill-per.css{
+    width: 80%;
+    animation-delay: 0.3s;
+}
+.skill-per.c{
+    width: 60%;
+    animation-delay: 0.2s;
+}
+.skill-per.python{
+    width: 50%;
+    animation-delay: 0.3s;
+}
+.skill-per.msword{
+    width: 40%;
+    animation-delay: 0.3s;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #a83cf5;
+    z-index: 1;
+}
+.tooltip::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: #cf3bf4;
+    transform: translateX(-50%) rotate(45deg);
+
+}
+
+
+.car1{
+    margin-bottom: 20px;
+    /* border:2px solid #030303; */
+    display: inline-block;
+    animation: progress 2s linear forwards;
+    transition: all .5s ease;
+    width: auto;
+}
+.card:hover{
+    border: 2px solid rgb(230, 133, 36);
+}
+#btn15{
+    float:right;
+    cursor:pointer;
+    text-align:center;
+    line-height:2em;
+    margin-top:-7px;
+    margin-left:10px;
+    font-size:16px;
+    color:white;
+    border:none;
+    outline: none;
+    background:rgb(230, 133, 36);
+
+}
+/* *{
+    background-color: #FFF0F3;
+} */
